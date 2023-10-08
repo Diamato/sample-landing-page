@@ -1,0 +1,29 @@
+*{
+    text-transform: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-transform: none;
+    color: inherit;
+}
+ul, ol{
+    list-style-type: none;
+}
+/* Start Header */
+
+.header__container {
+}
+.header-logo {
+}
+.header-menu {
+}
+.menu-item {
+}
+.main-button {
+}
+.header__btn {
+}
+.btn-link {
+}
+/* end Header */
