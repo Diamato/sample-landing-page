@@ -1,28 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap');
 *{
-    text-transform: none;
     padding: 0;
     margin: 0;
+    border: none;
 }
 a{
-    text-transform: none;
+    text-decoration: none;
     color: inherit;
 }
 ul, ol{
     list-style-type: none;
 }
-/* Start Header */
+body{
+    box-sizing: border-box;
+    font-family: DMSans, sans-serif;
 
-.header__container {
+}
+[class *=__container]{
+    max-width: 1440px;
+    padding: 0 10px;
+    margin: 0 auto;
+    /* border: 1px solid #000; */
+}
+/* Start Header */
+#header{
+    padding-top: 30px;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .header-logo {
 }
 .header-menu {
+    display: flex;
+    gap: 50px;
 }
 .menu-item {
+    color: #696871;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: -0.469px;
+}
+.menu-item.active{
+    color: #19191B;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #19191B;
 }
 .main-button {
+    color: #FFF;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: -0.531px;
 }
 .header__btn {
+    border-radius: 10px;
+    background: #FF7143;
+    width: 211px;
+    height: 60px;
+    flex-shrink: 0;
 }
 .btn-link {
 }
