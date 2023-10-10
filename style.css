@@ -72,6 +72,9 @@ body{
 /* end Header */
 /* start main */
 /* start home */
+.home{
+    margin-bottom: 135px;
+}
 .home__inner {
     display: flex;
     justify-content: space-between;
@@ -100,7 +103,12 @@ body{
     letter-spacing: -2.501px;
     padding-top: 92px;
 }
-
+.buttons{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+}
 .home__btn {
     margin-top: 20px;
 }
@@ -108,3 +116,12 @@ body{
     flex: 1;
 }
 /* end home */
+/* start clients */
+.clients {
+}
+.clients-lists {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* end clients */
