@@ -67,8 +67,7 @@ body{
     background: #FF7143;
     flex-shrink: 0;
 }
-.btn-link {
-}
+
 /* end Header */
 /* start main */
 /* start home */
@@ -124,10 +123,6 @@ body{
     display: flex;
     justify-content: space-between;
     
-}
-.clients-item{
-    /* padding-left: 60px;
-    padding-right: 60px; */
 }
 
 /* end clients */
@@ -216,3 +211,37 @@ body{
 }
 /* end card block */
 /* end features section */
+/* start blog*/
+.blog-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 250px;
+    margin-bottom: 82px;
+}
+.blog-title {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: -1.876px;
+    max-width: 825px;
+}
+.blog-buttons {
+    color: #FFF;    
+    font-family: DMSans;
+    font-size: 16px;
+    font-weight: 700;  
+    letter-spacing: -0.5px;
+    display: flex;
+    background: #F7F7FB;
+}
+.blog-button {
+    padding: 18px 50px;
+    border-radius: 0px 10px 10px 0px;
+}
+.blog-button--active{
+    border-radius: 10px 0px 0px 10px;
+    background: #5454D4;
+    color: #F7F7FB;
+}
+/* end blog */
