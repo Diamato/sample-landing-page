@@ -142,6 +142,11 @@ body{
     margin-bottom: 80px;
 }
 .features-img {
+    padding-left: 5%;
+}
+.features-img--right{
+    padding-left: 0;
+    padding-right: 5%;
 }
 .features-content {
     margin-right: 197px;
@@ -170,5 +175,44 @@ body{
     font-weight: 700;
     letter-spacing: -0.531px;
 }
+.metrics{
+    margin-bottom: 138px;
+}
 /* end subscription block */
+/* start card block */
+.features-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 185px;
+    margin-bottom: 150px;
+    
+}
+.features-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+
+}
+.card-img {
+    padding-left: 10%;
+}
+    
+.card-title {
+    color: #19191B;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: -0.75px;
+}
+.card-text {
+    color: #696871;
+    font-family: Mulish;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: -0.5px;
+}
+/* end card block */
 /* end features section */
