@@ -22,7 +22,7 @@ body{
 }
 [class *=__container]{
     max-width: 1440px;
-    padding: 0 10px;
+    padding: 0 20px;
     margin: 0 auto;
     /* border: 1px solid #000; */
 }
@@ -108,13 +108,21 @@ body{
     text-align: center;
     gap: 40px;
 }
-.home__btn {
-    margin-top: 20px;
-}
 .home-img{
     flex: 1;
 }
 /* end home */
+/* start @media home */
+@media(max-width: 1265px){
+    .home-title {
+        font-size: 60px;
+        padding-top: 80px;
+    }
+
+    .home-content p {
+        font-size: 15px;  
+    }
+}
 /* start clients */
 .clients {
     margin-bottom: 150px;    
@@ -173,6 +181,12 @@ body{
 .metrics{
     margin-bottom: 138px;
 }
+/* start adaptive features section */
+@media(max-width: 1330px){
+    .features-content {
+        margin-right: 150px;
+    }
+}
 /* end subscription block */
 /* start card block */
 .features-cards {
@@ -181,12 +195,13 @@ body{
     gap: 185px;
     margin-bottom: 150px;
     
+    
 }
 .features-card {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 20px;
     text-align: center;
 
@@ -210,6 +225,27 @@ body{
     letter-spacing: -0.5px;
 }
 /* end card block */
+/* start adaptive card section */
+@media(max-width: 1220px){
+    .features-cards {
+        display: flex;
+        justify-content: space-between;
+        gap: 10vh;
+        margin-bottom: 120px;
+        
+    }
+    .features-card {
+        gap: 16px;
+    }
+        
+    .card-title {
+        font-size: 20px;
+    }
+    .card-text {
+        font-size: 14px;
+    }
+}
+
 /* end features section */
 /* start blog*/
 .blog-inner {
@@ -248,6 +284,8 @@ body{
 /* start price */
 .price {
     padding: 0 20px;
+    margin-bottom: 100px;
+    
 }
 .price__container {
 }
@@ -256,6 +294,7 @@ body{
     justify-content: space-between;
     gap: 18px;
     padding: 0 20px;
+    
 }
 .price-card {
     /* width: 330px; */
